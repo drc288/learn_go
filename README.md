@@ -1,4 +1,4 @@
-# Golang
+ Golang
 
 Is an open source programming language that makes it easy to build simple, reliable,and efficient software.
 
@@ -6,9 +6,9 @@ The purpose of this repository is to be able to understand and perform different
 
 For this I use the Holberton methodology, which has helped me to understand low and high level languages.
 
-### Data types
+# Data types
 
-# Signed Integers
+## Signed Integers
 
 | Type | Size | Range |
 | ---- | ---- | ----- |
@@ -20,7 +20,7 @@ For this I use the Holberton methodology, which has helped me to understand low 
 
 The size of the generic int type is platform dependent. It is 32 bits wide on a 32-bit system and 64-bits wide on a 64-bit system.
 
-# Unsigned Integers
+## Unsigned Integers
 
 | Type | Size | Range |
 | ---- | ---- | ----- |
@@ -30,7 +30,7 @@ The size of the generic int type is platform dependent. It is 32 bits wide on a 
 | uint64 | 64 bits | 0 to 2^64 -1 |
 | uint | Plataform dependent | Plataform dependent |
 
-# Integer Type aliases
+## Integer Type aliases
 
 | Type | Alias For |
 | ---- | --------- |
@@ -56,3 +56,20 @@ Output
 ``` bash
 a = 97 and ♥ = U+2665
 ```
+
+## Floating Point Types
+
+Floating point types are used to store numbers with a decimal component (ex - 1.24, 4.50000). Go has two floating point types - float32 and float64.
+
+* float32 occupies 32 bits in memory and stores values in single-precision floating point format
+* float64 occupies 64 bits in memory and stores values in double-precision floating point format
+
+## Operations on Numeric Types
+
+Go provides several operators for performing operations on numeric types
+
+* Arithmetic Operators: +, -, *, /, %
+* Comparation Operators: ==, !=, <, >, <=, >=
+* Bitwise Operators: &, |, ^, <<, >>
+* Increment and Decrement Operators: ++, --
+* Assignment Operators: +=, -=, *=, /=, %=, <<=, >>=, &=, |=, ^=
